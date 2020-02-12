@@ -10,7 +10,7 @@ https://github.com/Leaflet/Leaflet.markercluster
 
 Add this line to your application's Gemfile:
 
-    gem 'leaflet-markercluster-rails'
+    gem 'leaflet-markercluster-rails', git: 'git://github.com/KRaikk/leaflet-markercluster-rails.git'
 
 And then execute:
 
@@ -28,10 +28,10 @@ Provides the following assets:
     leaflet.markercluster.css
     leaflet.markercluster.default.css
 
-To use these in a Rails app, add the following to application.css or application.css.scss
+To use these in a Rails app, add the following to application.css
 
-    //= require leaflet.markercluster
-    //= require leaflet.markercluster.default
+    *= require leaflet.markercluster
+    *= require leaflet.markercluster.default
 
 and add the following to application.js
 
