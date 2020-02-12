@@ -1,10 +1,8 @@
-*Consider using rails-assets instead of this: https://rails-assets.org/#/components/leaflet.markercluster*
-
 # Leaflet.MarkerCluster for Rails
 
 Engine wrapper for the Leaflet MarkerCluster library by @danzel.
 
-*Requires Leaflet 0.7.0 or newer.*
+*Updated by @KRaikk to work with newer versions of Leaflet (> 1.0.0) and Leaflet.MarkerCluster (> 1.0.0) and Rails (> 5.0).*
 
 https://github.com/Leaflet/Leaflet.markercluster
 
